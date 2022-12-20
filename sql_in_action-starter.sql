@@ -70,7 +70,7 @@
 -- WHERE room_type = "Private room"
 -- AND number_of_reviews = (SELECT MAX(number_of_reviews) FROM final_airbnb);
 
--- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 8 >>>>>>>>>>>>>>>>>>>>>>> DONE?
+-- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 8 >>>>>>>>>>>>>>>>>>>>>>> DONE
 -- Find the most popular neighbourhood for listings 
 -- HINT: Look for which neighbourhood appears most frequently in the neighbourhood column
 -- HINT: You are creating "summary rows" for each neighbourhood, so you will just see one entry for each neighbourhood
@@ -86,7 +86,7 @@
 -- FROM final_airbnb
 -- GROUP BY neighbourhood
 -- ORDER BY number_of_appearances DESC
--- LIMIT 40;
+-- LIMIT 2;
 
 -- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 9 >>>>>>>>>>>>>>>>>>>>>>> DONE
 -- Query the data to discover which listing is the most popular using the reviews_per_month for all listings with a minimum_nights value of less than 7
@@ -123,14 +123,11 @@
 -- ORDER BY number_of_listings DESC
 -- LIMIT 1;
 
--- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 11 >>>>>>>>>>>>>>>>>>>>>>>
+-- <<<<<<<<<<<<<<<<<<<<<< PROBLEM 11 >>>>>>>>>>>>>>>>>>>>>>> DONE
 -- <<<<<<<<<<<<<<<<<<<<<<< WRAP UP >>>>>>>>>>>>>>>>>>>>>>>>>
 -- What do you think makes a successful AirBnB rental in this market? What factors seem to be at play the most?
 -- Write a few sentences and include them with your project submission in the README file 
--- On Problem #7, I did SO MUCH research try to figure out how to query two different conditions inside of one query just to find out that all I needed was "AND". Once upon a time, that would have frustrated me greatly. But now, I find it very funny.
 
 -- <<<<<<<<<<<<<<<<<<<<< ** BONUS ** >>>>>>>>>>>>>>>>>>>>>>>
 -- Find the percent above or below each listing is compared to the average price for all listings.
 -- HINT: No hints! It's a bonus for a reason :)
-
-
